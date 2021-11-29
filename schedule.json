@@ -1,0 +1,179 @@
+{
+  "channel": "Channel 4",
+  "date": "2021-06-08",
+  "active": true,
+  "start": "05:00:00",
+  "rotation": 28800,
+  "program": [
+    {
+      "source": "/home/pi/media/08.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/08_04.12.stream",
+      "stream": "http://192.168.123.115/hls/channel4.m3u8",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0.5,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+	{
+      "source": "/home/pi/media/08.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+	{
+      "source": "/home/pi/media/09.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+	{
+      "source": "/home/pi/media/10.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/09_41.10.stream",
+      "stream": "http://192.168.123.115/hls/channel4.m3u8",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0.5,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/09.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/09_41.22.stream",
+      "stream": "http://192.168.123.115/hls/channel4.m3u8",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0.5,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/02.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/03.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/04.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/05.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "source": "/home/pi/media/06.mp4",
+      "stream": "",
+      "age": 18,
+      "in": 0,
+      "out": 0,
+      "dur": 0,
+      "power": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+
+  ]
+}

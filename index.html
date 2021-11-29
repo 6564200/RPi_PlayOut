@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PlayOut</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta http-equiv="Refresh" content=1 />
+  <style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #d3d3d3;
+  }
+  thead2 {
+    background: #000000; /* Цвет фона строки заголовка */
+    color: #fff; /* Цвет текста */
+   
+  }
+  </style>
+  </head>
+  <body style="background-color:Gray;">
+  <a href="/reboot.html">@</a>
+  <div class="main">
+    <div class="container">
+     <h2>PLAYOUT RASPBERRY</h2>
+     <div class="row">
+       <div class="col"> <h3>Time start: {{ items["start"] }}</h3> </div>
+       <div class="col"> <h3>Time rotation: {{ rot }} </h3> </div>
+     </div>
+    </div>
+  </div>
+<div class="container">
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Content</th>
+      <th>Duration</th>
+    </tr>
+    
+    {% for item in items["program"] %}
+      {% if item["out"] == 1 %}
+        <tr>
+         <td bgcolor="#999900"> 24:00 </td>
+         <td bgcolor="#999900"> {{ item["source"] }} </td>
+         <td bgcolor="#999900"> {{ item["strdur"] }} </td>
+        </tr>
+      {% else %}
+        <tr>
+         <td> 00:00 </td>
+         <td> {{ item["source"] }} </td>
+         <td> {{ item["strdur"] }} </td>
+        </tr>
+       {% endif %}
+    {% endfor %}
+  </table>
+</div>
+  </body>
+</html>
